@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CloudFlex Technologies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter',sans-serif; }
+    body { background:#f9fafb; color:#1e293b; line-height:1.5; }
+    header { background:#0f172a; color:#fff; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+    .logo { font-size:1.5rem; font-weight:700; color:#38bdf8; }
+    nav a { color:#fff; margin-left:1.5rem; text-decoration:none; font-weight:500; }
+    nav a:hover { color:#38bdf8; }
+    .hero { background:linear-gradient(90deg,#0f172a,#1e293b); color:#fff; text-align:center; padding:4rem 2rem; }
+    .hero h1 { font-size:2.5rem; margin-bottom:1rem; }
+    .hero p { font-size:1.125rem; max-width:700px; margin:0 auto; opacity:0.9; }
+    .section { padding:3rem 2rem; max-width:1100px; margin:auto; }
+    .section h2 { font-size:2rem; color:#0f172a; margin-bottom:1rem; }
+    .cards { display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; margin-top:2rem; }
+    .card { background:#fff; padding:1.5rem; border-radius:0.5rem; box-shadow:0 2px 8px rgba(0,0,0,0.05); flex:1 1 250px; text-align:center; }
+    .card h3 { margin-bottom:0.5rem; color:#0f172a; }
+    .how { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:2rem; margin-top:2rem; }
+    .how div { background:#fff; padding:1.5rem; border-radius:0.5rem; box-shadow:0 2px 8px rgba(0,0,0,0.05); text-align:center; }
+    .how div strong { display:block; margin-top:1rem; font-size:1.125rem; }
+    .metrics { display:flex; justify-content:center; gap:3rem; margin:2rem 0; }
+    .metrics div { text-align:center; }
+    .metrics div span { display:block; font-size:2rem; font-weight:600; color:#38bdf8; }
+    footer { background:#0f172a; color:#fff; text-align:center; padding:2rem; margin-top:3rem; }
+    @media(max-width:600px){ .metrics, .how { flex-direction:column; align-items:center; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CloudFlex Technologies</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#offerings">Offerings</a>
+      <a href="#process">How We Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Secure. Integrated. Future‑Ready Infrastructure</h1>
+    <p>CloudFlex simplifies enterprise technology with turn‑key AV, security, networking, and managed services—all backed by 24/7 support.</p>
+  </section>
+
+  <section id="offerings" class="section">
+    <h2>What We Offer</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Audio‑Visual Systems</h3>
+        <p>Design and deploy integrated AV environments for collaboration and conferencing.</p>
+      </div>
+      <div class="card">
+        <h3>Security & Surveillance</h3>
+        <p>End‑to‑end solutions to secure your assets, people, and premises.</p>
+      </div>
+      <div class="card">
+        <h3>Network Infrastructure</h3>
+        <p>Campus wireless, connectivity, and endpoint management that scales.</p>
+      </div>
+      <div class="card">
+        <h3>System Integration</h3>
+        <p>Seamless implementation across multi‑vendor tech stacks.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="section">
+    <h2>How We Work</h2>
+    <div class="how">
+      <div>
+        <p>🔍</p>
+        <strong>Assess</strong>
+        <p>Analyze your current infrastructure and gaps.</p>
+      </div>
+      <div>
+        <p>🧠</p>
+        <strong>Design</strong>
+        <p>Craft tailored, secure, and scalable solutions.</p>
+      </div>
+      <div>
+        <p>🛠️</p>
+        <strong>Implement</strong>
+        <p>Deploy flawlessly with minimal disruption.</p>
+      </div>
+      <div>
+        <p>📈</p>
+        <strong>Support</strong>
+        <p>Continuously optimize performance and security.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Trusted by Leading Organizations</h2>
+    <div class="metrics">
+      <div><span>100+</span><p>Projects Delivered</p></div>
+      <div><span>50+</span><p>Enterprise Clients</p></div>
+      <div><span>24/7</span><p>Support Availability</p></div>
+    </div>
+    <blockquote style="font-style:italic; text-align:center; color:#4b5563;">
+      “CloudFlex’s expertise in security and AV integration helped us modernize our campus effectively.” – CTO, Global Manufacturing Firm
+    </blockquote>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@cloudflex.in">contact@cloudflex.in</a> | Phone: +91 99002 16065</p>
+    <p>Address: No 134‑K, 14th Cross, 19th A Main, 1st N Block, Rajajinagar, Bengaluru – 560010</p>
+    <p style="text-align:center; margin-top:1rem;"><a href="mailto:contact@cloudflex.in" style="background:#38bdf8; color:#fff; padding:0.75rem 1.5rem; border-radius:0.375rem; text-decoration:none; font-weight:600;">Get In Touch</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 CloudFlex Technologies. All rights reserved.
+  </footer>
+</body>
+</html>
